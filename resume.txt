@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta name="Generator" content="sublime">
+    <meta name="Author" content="Lushanshan">
+    <meta name="Keywords" content="MyResume">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>简历</title>
+    <style type="text/css">
+    #header {
+		text-align:left;
+		padding:5px;
+	}
+    #header2{
+		text-align:left;
+		padding:8px;
+	}
+    #guideColumn{
+		margin: 0 auto;
+		background-color:white;
+		color:black;
+		height:20px;
+		width:80%;
+		text-align: left;
+		padding:5px;
+		border-radius: 5px;/**/
+	}
+		#text{
+			width: 75%;  
+			margin: 0 auto;
+			font-size:0.9em;
+			border-radius: 5px;
+		}
+    </style>  
+</head>
+    <style type="text/css">
+        body{
+        background-image: url(./2.png);
+        }
+    </style>
+<body>
+    <div style="margin: 5px;margin-bottom: 20px;">
+        <!-- block1 -->
+        <div style="float: left;width: 250px;margin: 0;">
+            <div id="header">
+                <strong style="font-size: 25px">个人简历</strong>
+            </div>
+            <div id="header2">
+                <strong>PERSONAL RESUME</strong>
+            </div>    
+            <div>
+                  <img src="./1.jpg" width="200px" height="270px">
+            </div>
+           
+            <table height=80px>
+                
+                <tr>
+                    <td height="10px"></td>
+                </tr>
+            </table>        
+        </div>
+        <!-- block2,简历主要内容 -->
+        <div style="float: left;width: 65%;margin-top: 50px;">
+            <div id='guideColumn'>个人信息</div>
+            <div id="text">
+                <table>
+                    <tr>
+                        <td colspan="3" height="10px"></td>
+                    </tr>
+                    <tr >
+                        <td width="150">姓名：陆珊珊</td>
+                        <td width="150">学历：硕士</td>
+                        <td width="150">专业：应用统计</td>
+                    </tr>
+                    <tr>
+                        <td width="150">性别：女 </td>
+                        <td width="150">籍贯：黑龙江</td>
+                        <td width="150">电话：18861823071</td>
+                    </tr>
+                    <tr>
+                        <td width="250">民族：汉</td>
+                        <td width="250">生日：1996.10.19</td>
+                        <td width="250">邮箱：lushanshan_333@163.com</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="10px"></td>
+                    </tr>
+                </table>                                            
+            </div>
+            <div id='guideColumn'>教育信息</div>
+            <div id="text">
+                <div style="height: 20px;">   </div>
+					<p>2017-2019：研究生：福建师范大学</p>
+					<p>2013-2017：本科生：江南大学</p>
+                <div style="height: 20px;">   </div>
+            </div>
+            <div id="guideColumn">项目情况</div>
+            <div id="text">
+                    <ul class="disc">
+                        <li>2018.10-2019.3 香港科技大学 研究生出境访学项目</li>
+                        <li>2018.3-2018.5  “泰迪杯”全国数据挖掘大赛</li>
+                        <li>2017.8-2017.10 全国研究生数学建模竞赛</li>                     
+                    </ul>    
+            </div> 
+            <div id='guideColumn'>实习经历</div>
+            <div id="text" >
+                <table  border='1' cellpadding="0" cellspacing="0" width="100%" 
+				align="center" style="margin-top: 20px;margin-bottom: 20px;border-color:#a6a6a6;">
+                    <tr>
+                        <th>时间</th>
+                        <th>企业</th>
+                        <th>职位</th>                  
+                    </tr>
+                    <tr>
+                        <td>2017.12-2018.2</td>
+                        <td>招商银行</td>
+                        <td>数据分析助理</td>
+                    </tr>
+                    <tr>
+                        <td>2014.8-2014.9</td>
+                        <td>无锡新思域科技有限公司</td>
+                        <td>宣传与运营实习生</td>
+                    </tr                
+                </table>
+            </div>
+        </div>
+</body>
+</html>
